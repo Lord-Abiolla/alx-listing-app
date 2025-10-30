@@ -1,11 +1,6 @@
 import React from "react";
 import Button from "./Button";
-
-type CardProps = {
-    title: string;
-    description: string;
-    image?: string;
-};
+import { CardProps } from "@/interfaces";
 
 export default function Card({ title, description, image }: CardProps) {
     return (
